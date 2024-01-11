@@ -4,9 +4,8 @@ const nextConfig = {
         domains:['cdn.imagin.studio']
     },
     typescript:{
-        ignoreBuildError:true
-        }
-        
+        ignoreBuildErrors:true
+    }    
 }
 
 module.exports = nextConfig
